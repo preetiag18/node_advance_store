@@ -1,0 +1,32 @@
+{
+  "host": "127.0.0.1",
+  "port": 3306,
+  "admin": "boss",
+  "user": "harry",
+  "userpassword": "Db6kUZNG",
+  "dropUser": true,
+  "debug": true,
+  "database": "catdb",
+  "allowPublicKeyRetrieval": true,
+  "tables": [
+    {
+      "tableName": "cat",
+      "columns": [
+        "number integer not null primary key",
+        "name varchar(13) not null",
+        "breed varchar(15) not null",
+        "yearOfBirth integer(15) not null",
+        "length integer not null"
+      ],
+      "data": [
+        [1, "Hairball", "domesticus", 1995, 32],
+        [2, "Fatzo", "couchPurrer", 2000, 42],
+        [3, "Fluffy", "gigantus", 2000, 42],
+        [4, "Lion II", "longtail", 2000, 42],
+        [5, "Puma", "yellowBreed", 2000, 42],
+        [6, "Cute", "alley cat", 2000, 42],
+        [7, "Zebra", "sillycat", 2000, 42]
+      ]
+    }
+  ]
+}

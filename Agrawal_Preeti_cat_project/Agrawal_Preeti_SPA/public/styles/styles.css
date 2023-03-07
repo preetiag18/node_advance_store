@@ -1,0 +1,70 @@
+h1 {
+  color: aqua;
+}
+
+.legend {
+  color: blue;
+  font-weight: bold;
+}
+main {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  gap: 1rem;
+}
+
+table {
+  border-collapse: collapse;
+  margin-bottom: 1em;
+}
+
+table,
+th,
+td {
+  border: solid black 1px;
+  padding: 0.5em;
+}
+
+thead {
+  background-color: khaki;
+}
+
+button {
+  font-family: sans-serif;
+  width: 13em;
+  height: 2em;
+}
+
+.info {
+  border: solid green 2px;
+  padding: 1em;
+}
+
+.error {
+  border: dashed red 2px;
+  padding: 1em;
+}
+
+#messagearea {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+input[readonly] {
+  background-color: lightgray;
+}
+
+label {
+  display: inline-block;
+  width: 150px;
+  text-align: left;
+  row-gap: 2rem;
+}
+
+.fields {
+  font-weight: bold;
+}
+
+div {
+  margin-bottom: 10px;
+}
